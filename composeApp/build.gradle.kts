@@ -11,6 +11,8 @@ plugins {
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.composeHotReload)
     alias(libs.plugins.kotlinxSerialization)
+    id("org.jetbrains.kotlin.kapt")
+
 }
 
 repositories {
@@ -82,8 +84,11 @@ kotlin {
             implementation("io.ktor:ktor-client-core:3.1.3")
             implementation("io.ktor:ktor-client-content-negotiation:3.1.3")
             implementation("io.ktor:ktor-serialization-kotlinx-json:3.1.3")
-            implementation("media.kamel:kamel-image-default:1.0.5")
             implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
+            implementation("media.kamel:kamel-image-default:1.0.5")
+
+
+
 
         }
         commonTest.dependencies {

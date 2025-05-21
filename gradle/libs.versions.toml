@@ -16,6 +16,8 @@ junit = "4.13.2"
 kotlin = "2.1.21"
 kotlinx-coroutines = "1.10.2"
 kamel = "1.0.5"
+glide = "4.16.0"
+
 
 
 [libraries]
@@ -33,6 +35,9 @@ androidx-lifecycle-runtimeCompose = { module = "org.jetbrains.androidx.lifecycle
 kotlinx-coroutinesSwing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
 compose-material-icons-extended = { module = "org.jetbrains.compose.material3:material3-icons-extended", version.ref = "composeMultiplatform" }
 kamel-core = { module = "media.kamel:kamel-image-default", version.ref = "kamel" }
+glide-core = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+
+
 
 
 
